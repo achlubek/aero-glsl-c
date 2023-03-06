@@ -5,7 +5,7 @@
     "target": "ES2022",
     "outDir": "./dist",
     "baseUrl": "./",
-    "declaration": false,
+    "declaration": true,
     "removeComments": true,
     "emitDecoratorMetadata": false,
     "experimentalDecorators": false,

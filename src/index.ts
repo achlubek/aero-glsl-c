@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { parseArgs } from "util";
 
 import { Compiler } from "@app/Compiler";
@@ -18,6 +19,9 @@ const { values } = parseArgs({
 const run = async (): Promise<void> => {
   if (values.dir && typeof values.dir === "string") {
     await new Compiler().compile(values.dir);
+  } else {
+    // eslint-disable-next-line no-console
+    console.log("USAGE: aero-glsl-c --dir myshaders");
   }
 };
 void run();

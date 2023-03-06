@@ -10,7 +10,7 @@
     "dist/**/*"
   ],
   "bin": {
-    "aero-glsl-c": "dist/cli.js"
+    "aero-glsl-c": "dist/index.js"
   },
   "repository": "https://github.com/achlubek/aero-glsl-c",
   "homepage": "https://github.com/achlubek/aero-glsl-c",
